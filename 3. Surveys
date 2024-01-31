@@ -1,0 +1,21 @@
+Surveys:
+——————————————————————————————————————————
+https://trailhead.salesforce.com/content/learn/modules/survey-basics?trailmix_creator_id=strailhead&trailmix_slug=prepare-for-your-salesforce-business-analyst-credential
+
+Setup search: Feature Settings -> survey -> survey settings
+
+must first enable surveys to use them. Once enabled, you can find surveys in the app launcher
+	app launcher -> surveys
+
+Once your survey is complete, you can click preview so you can preview how an end user would view the survey
+——————————————————————————————————————————
+To open a survey, you have to click the arrow button on the right and click 'open latest version'
+	if you simply click the name, it will only take you to the survey components
+
+To send your survey out, open the latest version and instead of being in the 'view' tab, you can select the 'send' tab
+
+Once you get your results, you can analyze the results of your survey by selecting the 'analyze' tab next to the 'view' and 'send' tabs.
+You can export the results in an excel format by sending it to yourself
+——————————————————————————————————————————
+Good questions are open ended questions 
+	-ask how and why

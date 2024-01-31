@@ -1,0 +1,124 @@
+Establishing Current State: 
+——————————————————————————————————————————
+What is current state?
+
+When trying to improve company systems, processes and workflows, you need to know the current state to identify areas of improvement to increase overall productivity and efficiency.
+
+Once you find do your analysis, you can create user stories to track and your work of updating current state to future state
+
+There are multiple ways of analyzing the current state (https://ca.indeed.com/career-advice/career-development/current-state-analysis)
+	1. conducting research
+	2. interview professionals
+	3. observations through following a person's day to day
+	4. surveys
+
+You would then document the process and identify any gaps, obstacles or flaws.
+
+There are multiple ways of establishing current state for different areas in salesforce outside the 4 ways listed above
+Some of these are packaged that were downloaded form the app exchange
+To see all downloaded packages: setup search -> installed packages
+——————————————————————————————————————————
+Salesforce Adoption App:
+	we can use the salesforce adoption app from the App Exchange.
+
+This will help identify areas of weakness or data incompleteness throughout the components of these dashboards
+
+The Salesforce Adoption Dashboards provides 3 dashboards for visibility regarding 
+	1. user login history & trending
+	2. adoption of key features such as accounts & opportunities (you can see any new accoutns, contacts and activities)
+	3. critical sales and marketing productivity enhancers.
+
+——————————————————————————————————————————
+Lightning Experience App
+	we can also establish the current state using the Lightning Experience App
+
+This can be very helpful for projects where companies are migrating from classic to lightning
+
+You can use this app to 
+	1. track switches to classic 
+	2. browser performance
+	3. mobile logins 
+	4. most viewed pages and their performance
+	5. number of licenses by profile, permission set licenses, feature licenses
+	6. log in metrics (passwordless, password, mfa, etc)
+	7. enable a feedback form to survey people whenever they switch back to salesforce classic
+
+Links:
+	1. https://help.salesforce.com/s/articleView?id=sf.lex_lightning_usage_app.htm&type=5
+——————————————————————————————————————————
+Org Check:
+	can be found in the Lightning Experience App or you can search up Optimizer in the setup search
+
+This is a helpful app that can show you more info and if theres any alerts or warnings you should check on 
+	objects
+	custom fields
+	users
+	profiles
+	permission sets
+	roles
+	etc.
+
+Goals:
+	1. shows where youre using specific fields
+	2. if youre not using specific fields
+	3. if youre reaching a limit
+	4. shows users that didnt log in a long time, if they never logged in, etc.
+
+Links:
+	1. https://help.salesforce.com/s/articleView?id=000383807&type=1
+——————————————————————————————————————————
+Optimizer 
+	can be found in the Lightning Experience App or you can search up Optimizer in the setup search
+
+takes a snapshot of your org and looks for potential problems in your implementation. Gives you data on metrics such as storage, fields, custom code, custom layouts for objects, reports and dashboards, etc. For each metric, the below is provided:
+
+	1. what we have found in your org
+	2. what you should do about it
+	3. resources to learn more
+
+When to use it: 
+	1. you want to establish current state
+	2. you want to clean the org, but don’t know where to start.
+	3. users are complaining about slow performance and busy page layouts.
+	4. want to know what limits you are approaching 
+	5. reccomends new features from new releases
+	6. if youre planning on moving from classic to lightning, it will tell you what items youre not using so you dont need to transition them 
+
+The optimizer has to be enabled and once enabled, you can find it in the app launcher as well
+
+Links:
+	1. https://trailhead.salesforce.com/content/learn/modules/salesforce-optimizer/run-a-report-and-review-the-findings?trailmix_creator_id=strailhead&trailmix_slug=prepare-for-your-salesforce-business-analyst-credential
+
+	2. https://help.salesforce.com/s/articleView?id=sf.optimizer_included_features.htm&type=5
+——————————————————————————————————————————
+Health Check
+	setup up search: security -> health check
+
+Reports on how well the org meets security standards. This will list all high, medium and low risk settings.
+
+The 3 are based on 3 status signals
+	1. critical
+	2. warning
+	3. compliant
+——————————————————————————————————————————
+System Overview:
+	setup search: environments -> system overview
+
+shows key usage data to show if theres anything reaching its limit	
+——————————————————————————————————————————
+Custom Reports:
+
+You can create custom reports to analyze, summarize, filter and organize data to gain insights, track performance and support informed decisions
+
+Examples for custom reports: https://help.salesforce.com/s/articleView?id=sf.lex_usage_reports.htm&type=5
+
+1. make sure that the custom report doesnt already exist
+	search up 'reports' in app launcher and search for keywords
+	search up 'report types' in setup menu search and search for keywords
+
+2. search report types in setup menu and click new
+	the primary object is what youre doing a report on 
+
+3. search up 'reports' in app launcher and click new
+	find the report that you created in step 2 and start report
+——————————————————————————————————————————
