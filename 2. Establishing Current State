@@ -49,6 +49,11 @@ Links:
 Org Check:
 	can be found in the Lightning Experience App or you can search up Optimizer in the setup search
 
+What it shows:
+	-What we have found in your org
+	-What you should do about it
+	-Resources to learn more
+
 This is a helpful app that can show you more info and if theres any alerts or warnings you should check on 
 	objects
 	custom fields
@@ -63,6 +68,8 @@ Goals:
 	2. if youre not using specific fields
 	3. if youre reaching a limit
 	4. shows users that didnt log in a long time, if they never logged in, etc.
+	5. you want to cleaar up your org
+	6. users are complaining about slow performance
 
 Links:
 	1. https://help.salesforce.com/s/articleView?id=000383807&type=1
