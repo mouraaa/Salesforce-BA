@@ -25,9 +25,15 @@ This will help identify areas of weakness or data incompleteness throughout the 
 
 The Salesforce Adoption Dashboards provides 3 dashboards for visibility regarding 
 	1. user login history & trending
-	2. adoption of key features such as accounts & opportunities (you can see any new accoutns, contacts and activities)
+	2. adoption of key features such as accounts & opportunities (you can see any new accounts, contacts and activities)
 	3. critical sales and marketing productivity enhancers.
 
+——————————————————————————————————————————
+Impact Analysis Report:
+
+-Shows how specific changes in the company's metadata can affect other org metadata and configurations.
+
+-SF doesn't provide this feature but there are 3rd party apps from the AppExchange that can be used.
 ——————————————————————————————————————————
 Lightning Experience App
 	we can also establish the current state using the Lightning Experience App
@@ -46,38 +52,10 @@ You can use this app to
 Links:
 	1. https://help.salesforce.com/s/articleView?id=sf.lex_lightning_usage_app.htm&type=5
 ——————————————————————————————————————————
-Org Check:
-	can be found in the Lightning Experience App or you can search up Optimizer in the setup search
-
-What it shows:
-	-What we have found in your org
-	-What you should do about it
-	-Resources to learn more
-
-This is a helpful app that can show you more info and if theres any alerts or warnings you should check on 
-	objects
-	custom fields
-	users
-	profiles
-	permission sets
-	roles
-	etc.
-
-Goals:
-	1. shows where youre using specific fields
-	2. if youre not using specific fields
-	3. if youre reaching a limit
-	4. shows users that didnt log in a long time, if they never logged in, etc.
-	5. you want to cleaar up your org
-	6. users are complaining about slow performance
-
-Links:
-	1. https://help.salesforce.com/s/articleView?id=000383807&type=1
-——————————————————————————————————————————
 Optimizer 
 	can be found in the Lightning Experience App or you can search up Optimizer in the setup search
 
-takes a snapshot of your org and looks for potential problems in your implementation. Gives you data on metrics such as storage, fields, custom code, custom layouts for objects, reports and dashboards, etc. For each metric, the below is provided:
+takes a snapshot of your org and looks for potential problems in your implementation. Provides reccomendations related to maintenance, productivity and user adoption and monitors data storage. For each metric, the below is provided:
 
 	1. what we have found in your org
 	2. what you should do about it

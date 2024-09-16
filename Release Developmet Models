@@ -1,0 +1,17 @@
+Release Development Models:
+——————————————————————————————————————————
+Change Set Development Model:
+	-uses "change sets" to deploy the changes
+	-ideal for simple deployments of supported components/metadata
+	-the release artificat is a set of metadata changes to apply to the production org
+
+Org Development Model:
+	-ideal if there are multiple developers
+	-uses source control
+
+Package Development Model:
+	-ideal if there are different development teams buolding and deploying changes to the production org simultaneously
+	-uses a modular tyoe of development
+	-changes are deploying used a package
+	-a package is a compliation of customizations and related code
+——————————————————————————————————————————
